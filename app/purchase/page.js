@@ -7,11 +7,11 @@ import tick from "/public/images/mdi_tick-outline.png"
 
 const Purchase = () => {
   return (
-    <div className='flex flex-col'>
-        <Image src={tick} width={300} height={300} alt="tick" className='relative left-[700px]'/>
-        <div className='relative reem text-6xl left-[720px] '>Booked!</div>
+    <div className='flex flex-col justify-center items-center'>
+        <Image src={tick} width={300} height={300} alt="tick" className=''/>
+        <div className=' reem text-6xl '>Booked!</div>
         <Link href="/">
-            <Image src={home} width={100} height={100} alt="home" className='relative left-[760px] mt-11' />
+            <Image src={home} width={100} height={100} alt="home" className='mt-5' />
         </Link>
     </div>
   )
