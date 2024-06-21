@@ -31,7 +31,7 @@ const Stage = () => {
             </div>
         </div>
         <div id="another-rect" className='w-[230px] h-[170px] bg-black absolute top-[200px] left-[700px] rounded-[50px] hidden max-[425px]:left-[50px]'>
-            <div className='color-white text-[30px] ml-[30px] mt-[20px] text-white'>Quantity</div>
+            <div className='text-[30px] ml-[30px] mt-[20px] text-white'>Quantity</div>
             <div>
                 <Input className='ml-[30px] w-[60px] h-7 text-black' type='number'  max="10"/>
             </div>
