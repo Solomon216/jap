@@ -9,7 +9,7 @@ const Purchase = () => {
   return (
     <div className='flex flex-col justify-center items-center'>
         <Image src={tick} width={300} height={300} alt="tick" className=''/>
-        <div className=' reem text-6xl '>Booked!</div>
+        <div className=' reem text-6xl text-white'>Booked!</div>
         <Link href="/">
             <Image src={home} width={100} height={100} alt="home" className='mt-5' />
         </Link>
